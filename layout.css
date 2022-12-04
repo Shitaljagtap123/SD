@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0px;
+}.container{
+
+    border: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: orangered;
+    flex-grow: 1;
+    display: flex;
+    
+}
+.logo{
+    background-color: antiquewhite;
+    flex-grow: 2;
+}
+.logo img{
+    background-size: contain;
+}
+.head{
+    background-color: slategrey;
+    flex-grow: 8;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.heading{
+    background-color: gray;
+    flex-grow: 1;
+}
+.menu{
+    background-color: slateblue;
+    flex-grow: 1;
+}
+
+main{
+    background-color: aqua;
+    flex-grow: 6;
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    background-color: sandybrown;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+
+}
+.box1{
+    background-color: yellowgreen;
+    flex-grow: 1;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px gray;
+
+}
+.box2{
+    background-color: yellowgreen;
+    flex-grow: 1;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px gray;
+}
+.box3{
+    background-color: yellowgreen;
+    flex-grow: 1;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px gray;
+}
+section{
+    background-color: palevioletred;
+    flex-grow: 6;
+    display: flex;
+}
+.left{
+    background-color: wheat;
+    flex-grow: 2;
+}
+.middle{
+    background-color: tomato;
+    flex-grow: 3;
+    text-align: center;
+    b
+    
+}
+.box4{
+    background-color: maroon;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    line-height: 170px;
+    margin-left: 250px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+border: 2px solid yellow;
+margin-top: 200px;
+box-shadow: 2px 2px 2px green;
+
+    
+}
+h1{
+    margin-top: 10px;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 5px 5px 5px green;
+}
+
+.right{
+    background-color: wheat;
+    flex-grow: 2;
+}
+
+footer{
+    background-color: blueviolet;
+    flex-grow: 1;
+}
